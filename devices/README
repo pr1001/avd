@@ -1,0 +1,18 @@
+// $ANDROID_SDK_ROOT
+// android list targets
+
+Devices are described in JSON files and must be placed in the devices directory for avd to detect them. The definitions are written in the following format:
+{
+    "name": "Device-Name",
+    "supported_versions": ["android", "versions"]
+    "skin": "Skin-Name", // optional, a Skin will be looked for (both in avd/skins/ and $ANDROID_SDK_ROOT/platforms/[selected-platform]/skins/) and used
+    "sdcard": {
+        "size": "<size>[K|M]", // same as the android create avc -c option
+        "file": "relative/path/to.img", // if given the img file will be copied rather than a blank one generated
+    },
+    "options": {
+        "the.property": "the-value" // these values will be appended like 'the.property=the-value' to the Device-Name.ini file android create avd makes
+    }
+}
+
+Files names must be in the format Device-Name.json.

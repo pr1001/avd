@@ -1,0 +1,8 @@
+{
+    "name": "XperiaX10",
+    "supported_versions": ["android-5", "android-6", "android-7", "android-8"],
+    "skin": "XperiaX10",
+    "sdcard": {
+        "size": "8192M"
+    }
+}

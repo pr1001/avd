@@ -1,0 +1,7 @@
+{
+    "name": "XperiaX10",
+    "author": "Tea Vui Huang <tvhuang@hotmail.com>",
+    "version": "1.0",
+    "homepage": "http://teavuihuang.com/android/",
+    "supported_versions": ["android-5", "android-6", "android-7", "android-8"]
+}

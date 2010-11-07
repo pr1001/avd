@@ -1,0 +1,14 @@
+// http://teavuihuang.com/android/
+// skins must be installed in sdk/platforms/android-x.x/skins
+// $ANDROID_SDK_ROOT -> os.getenv("ANDROID_SDK_ROOT")
+
+Skins are described in JSON files in the following format:
+{
+    "name": "Skin-Name",
+    "author": "Name <email@address>",
+    "version": "major.minor",
+    "homepage": "http://web.address",
+    "supported_versions": ["android", "versions"]
+}
+
+Each skin must be in an directory under skins/ with the same name as Skin-Name. The skin definition file must be included in this subdirectory along with any images and such and must be names Skin-Name.json.
