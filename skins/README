@@ -1,8 +1,5 @@
-// http://teavuihuang.com/android/
-// skins must be installed in sdk/platforms/android-x.x/skins
-// $ANDROID_SDK_ROOT -> os.getenv("ANDROID_SDK_ROOT")
-
 Skins are described in JSON files in the following format:
+
 {
     "name": "Skin-Name",
     "author": "Name <email@address>",

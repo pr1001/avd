@@ -1,7 +1,5 @@
-// $ANDROID_SDK_ROOT
-// android list targets
-
 Devices are described in JSON files and must be placed in the devices directory for avd to detect them. The definitions are written in the following format:
+
 {
     "name": "Device-Name",
     "supported_versions": ["android", "versions"]
